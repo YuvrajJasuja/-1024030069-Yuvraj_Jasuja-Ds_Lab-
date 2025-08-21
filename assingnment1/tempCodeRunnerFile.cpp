@@ -6,7 +6,7 @@ void columnSum(int r,int c,int arr[][max]){
     for(int i=0;i<c;i++){
         for(int j=0;j<r;j++)
         {
-            sum += arr[j][i];
+            sum += arr[i][j];
         }
         cout<<"sum for column "<<i<<"is :"<<sum<<endl;
         sum=0;
